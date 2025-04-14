@@ -1295,4 +1295,15 @@ button {
   .modal {
     min-height: 584px;
   }
+
+  .close-btn:hover,
+.close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.close-btn:hover .close-icon,
+.close-btn:focus .close-icon {
+  fill: #ffffff;
+}
 }

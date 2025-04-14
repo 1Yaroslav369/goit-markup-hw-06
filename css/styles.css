@@ -1285,5 +1285,14 @@ button {
 }
 /* *tablet */
 @media screen and (min-width: 768px) {
-  
+  .modal {
+    width: 408px;
+  min-height: 623px;
+  }
+}
+/* *PC */
+@media screen and (min-width: 1158px) {
+  .modal {
+    min-height: 584px;
+  }
 }
